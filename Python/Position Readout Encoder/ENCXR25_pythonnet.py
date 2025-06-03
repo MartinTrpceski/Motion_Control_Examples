@@ -42,7 +42,7 @@ def main():
         device_info = device.GetDeviceInfo()
         print(device_info.Description)
 
-        status = device.Status;
+        status = device.Status
         print("Actual Position =", status.ActualPosition/1000000,"mm")
 
         # Stop Polling and Disconnect
